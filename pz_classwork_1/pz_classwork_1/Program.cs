@@ -32,7 +32,7 @@ namespace pz_classwork_1
             string fio;
             fio = Console.ReadLine();
             Console.WriteLine(fio);
-
+            //h
 
 
         }
