@@ -10,7 +10,42 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //d
+            /*//4.1
+            double a = double.Parse(Console.ReadLine());
+            double b = double.Parse(Console.ReadLine());
+
+            if (a > b)
+            {
+                Console.WriteLine("a>b");
+            }
+            else if (a < b)
+            {
+                Console.WriteLine("a<b");
+            }
+            else
+            {
+                Console.WriteLine("a=b");
+            }
+            //Console.ReadLine();
+            */
+
+            //4.3
+            byte number = 30;
+
+            switch (number % 2)
+            {
+                case 0:
+                    Console.WriteLine("Even");
+                    break;
+                default:
+                    Console.WriteLine("Odd");
+                    break;
+
+            }
+
+            Console.ReadLine();
+
+
         }
     }
 }
